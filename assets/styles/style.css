@@ -504,7 +504,7 @@ p.box{
 
 /*---about---*/
 section.about{
-    background: #FFEADA;
+    background: radial-gradient(#FFEADA, #ffd6b6);
     left: 0;
     padding: 5rem 1rem;
 }
