@@ -170,16 +170,40 @@ header{
 
 
 /*--home---*/
-section.home{
+section.home {
     background-image: url(../imgs/Image-1.jpg);
     width: 100%;
     height: 100vh;
     top: 0;
+    position: relative;
     left: 0;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100vh; /* Set initial background size */
+    animation: change 15s infinite ease-in-out;
 }
 
+@keyframes change {
+    0% {
+        background-size: 100% 100vh;
+        background-image: url(../imgs/Image-1.jpg);
+    }
+    25% {
+        background-size: 120% 120vh; /* Scale up */
+        background-image: url(../imgs/Image-2.jpg);
+    }
+    50% {
+        background-size: 100% 100vh; /* Scale down */
+        background-image: url(../imgs/Image-3.jpg);
+    }
+    75% {
+        background-size: 120% 120vh; /* Scale up */
+        background-image: url(../imgs/Image-2.jpg);
+    }
+    100% {
+        background-size: 100% 100vh; /* Scale down */
+        background-image: url(../imgs/Image-2.jpg);
+    }
+}
 .overlay{
     background: rgba(0, 0, 0, 0.242);
     top: 0;
@@ -198,7 +222,7 @@ p.welcome{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: var(--font-size-p);
     color: #FFEADA;
-    font-weight: 400;
+    
     line-height: 0;
     padding: 5px 0px;
 }
