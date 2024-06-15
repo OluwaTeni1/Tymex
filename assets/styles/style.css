@@ -49,7 +49,7 @@
 
 header{
     width: 98.69%;
-    background: #FF6F00;
+    background: #36A0FC;
     position: sticky;
     top: 0;
     left: 0;
@@ -405,7 +405,7 @@ article{
 .boxes{
     width: 160px;
     border-radius: 10px;
-    border: 2.5px solid var(--color-3);
+    border: 2.5px solid #002D68;
     padding: 18px 12px;
     display: flex;
     flex-direction: column;
@@ -504,7 +504,7 @@ p.box{
 
 /*---about---*/
 section.about{
-    background: radial-gradient(#FFEADA, #ffd6b6);
+    background: radial-gradient(#ecf6ff, #c1e2ff);
     left: 0;
     padding: 5rem 1rem;
 }
@@ -662,9 +662,8 @@ section.gallery{
 .g-img{
     width: 210px;
     height: 210px;
-    
     border-radius: 25px;
-    border: 3px solid #FF6F00;
+    border: 3px solid #36A0FC;
 }
 
 .g-img img{
@@ -764,7 +763,7 @@ section.contact{
     text-align: left;
     font-size: 24px;
     margin-bottom: 20px;
-    color: #FF6F00;
+    color: #36A0FC;
 }
 
 .contact-info p{
@@ -809,7 +808,7 @@ textarea:focus{
 button{
     display: inline-block;
     padding: 12px 24px;
-    background: #FF6F00;
+    background: #36A0FC;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -817,7 +816,7 @@ button{
 }
 
 button:hover{
-    background: #780e00;
+    background: #002D68;
 }
 
 @media screen and (max-width: 768px){
@@ -840,7 +839,7 @@ footer{
     bottom: 0;
     left: 0;
     padding: 2.5rem 2rem;
-    background: #FF6F00;
+    background: #36A0FC;
 }
 
 .foot-nav{
@@ -897,14 +896,14 @@ button.subscribe{
     width: 100%;
     padding: 12px 24px;
     background: #ffffff;
-    color: #FF6F00;
+    color: #36A0FC;
     border: none;
     cursor: pointer;
     transition: 0.3s ease;
 }
 
 button.subscribe:hover{
-    color: #780e00;
+    color: #002D68;
     background: rgba(255, 255, 255, 0.85);
 }
 
